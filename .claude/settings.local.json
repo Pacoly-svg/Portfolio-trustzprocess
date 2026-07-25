@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --version)",
+      "Read(//c/Users/papac/Downloads/**)",
+      "Read(//c/Users/papac/AppData/Local/Temp/**)",
+      "Bash(sort -k6,7)",
+      "Bash(find /c/Users/papac/AppData/Local/Temp -iname \"*.png\" -newermt \"-15 minutes\" 2>/dev/null; find \"C:/Users/papac/.claude\" -iname \"*.png\" -newermt \"-15 minutes\" 2>/dev/null; find /c/Users/papac/AppData/Local/Temp/claude -type f -newermt \"-15 minutes\" 2>/dev/null)",
+      "Bash(mv \"Logo Trustzprocess-01.png\" \"logo-light.png\")",
+      "Bash(mv \"Logo Trustzprocess-02.png\" \"logo-dark.png\")",
+      "Bash(mv \"Notre équipe/Papa Coly Sène.png\" \"papa-coly-sene.png\")",
+      "Bash(mv \"Notre équipe/Céline Ongbato Njiri.png\" \"celine-ongbato-njiri.png\")",
+      "Bash(mv \"Notre équipe/Yaye Arame Sall.png\" \"yaye-arame-sall.png\")",
+      "Bash(mv \"Notre équipe/Kadijatou Jallow.png\" \"kadijatou-jallow.png\")",
+      "Bash(mv \"Notre équipe/Moustapha Diop.png\" \"moustapha-diop.png\")",
+      "Bash(cp \"assets/img/slide images header/4.jpg\" \"assets/img/hub-photo-1.jpg\")",
+      "Bash(cp \"assets/img/slide images header/5.jpg\" \"assets/img/hub-photo-2.jpg\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(mv \"Acad Mali.jpg\" \"acad-mali.jpg\")",
+      "Bash(mv \"ONG enfant soleil sénégal.jpg\" \"ong-enfants-soleil-senegal.jpg\")",
+      "Bash(mv \"ONGG OGBL.png\" \"ong-ogbl.png\")",
+      "Bash(mv \"ministere finance.png\" \"ministere-finance.png\")",
+      "Bash(sed -i 's|<img src=\"assets/img/Reference/Ecobank_Logo_EN.png\" alt=\"Ecobank\">|<img class=\"logo-boost\" src=\"assets/img/Reference/Ecobank_Logo_EN.png\" alt=\"Ecobank\">|' index.html)",
+      "Bash(sed -i 's|<img src=\"assets/img/Reference/access_bank.png\" alt=\"Access Bank\">|<img class=\"logo-boost\" src=\"assets/img/Reference/access_bank.png\" alt=\"Access Bank\">|' index.html)",
+      "Bash(sed -i 's|<img src=\"assets/img/Reference/acad-mali.jpg\" alt=\"ACAD-Mali\">|<img class=\"logo-boost\" src=\"assets/img/Reference/acad-mali.jpg\" alt=\"ACAD-Mali\">|' index.html)",
+      "Bash(sed -i 's|<img src=\"assets/img/Reference/Ecobank_Logo_EN.png\" alt=\"\" aria-hidden=\"true\">|<img class=\"logo-boost\" src=\"assets/img/Reference/Ecobank_Logo_EN.png\" alt=\"\" aria-hidden=\"true\">|' index.html)",
+      "Bash(sed -i 's|<img src=\"assets/img/Reference/access_bank.png\" alt=\"\" aria-hidden=\"true\">|<img class=\"logo-boost\" src=\"assets/img/Reference/access_bank.png\" alt=\"\" aria-hidden=\"true\">|' index.html)",
+      "Bash(sed -i 's|<a href=\"index.html#contact\" class=\"btn btn-primary\">Postuler</a>|<a href=\"equipe.html#contact\" class=\"btn btn-primary\">Rejoindre l'\\\\''équipe</a>|' creation-de-contenu.html data-ia.html design-creatif.html design-graphique.html developpement-web.html entrepreneuriat.html ia-data.html references.html structurer-son-offre.html trouver-des-clients.html)",
+      "Bash(sed -i 's|<a href=\"index.html#contact\" class=\"btn btn-primary\">Postuler</a>|<a href=\"#contact\" class=\"btn btn-primary\">Rejoindre l'\"'\"'équipe</a>|' equipe.html)",
+      "Bash(sed -i 's|<a href=\"#contact\" class=\"btn btn-primary\">Postuler</a>|<a href=\"equipe.html#contact\" class=\"btn btn-primary\">Rejoindre l'\"'\"'équipe</a>|' index.html)",
+      "WebFetch(domain:www.alxafrica.com)",
+      "Bash(python3 -c \"import PIL; print\\('PIL ok'\\)\")",
+      "Bash(python -c \"import PIL; print\\('PIL ok'\\)\")"
+    ]
+  }
+}
